@@ -17,7 +17,7 @@ public class main {
                 resetNumerator = resetNumerator - 1;
             }
             clickProb = clickProb * 100;
-            System.out.printf("The chance to get %d clicks is %.10f%%",clickCount,clickProb);
+            System.out.printf("The chance to get %d clicks is %.20f%%",clickCount,clickProb);
             done = SafeInput.getYNConfirm(pipe,"Would you like to continue?");
         }while (!done);
     }
